@@ -123,7 +123,12 @@ color: #474747;
     filter: brightness(110%);
     
   }
-
+.middle-curve{
+  position:absolute;
+  top: 80%;
+  right: 0;
+  z-index: -1;
+}
   .content{
     width: 90%;
     margin-left: auto;
@@ -180,7 +185,13 @@ color: #474747;
     background-color: #CDDFF1;
   }
 
-
+.bottom-curve{
+  position: absolute;
+  width: 30%;
+  top: 4500px;
+  left: 0;
+  z-index: -1;
+}
   .author{
     width: 55%;
     margin-left: auto;
