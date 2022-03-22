@@ -58,7 +58,6 @@ section::after {
     width: 550px;
     margin: auto;
     padding: auto;
- 
     
   }
   
@@ -156,6 +155,7 @@ color: #474747;
    
   }
   .view-app-img-container{
+    margin-top: -20px;
     margin-bottom: 50px;
   }
 
@@ -165,7 +165,8 @@ color: #474747;
     margin-top: 80px;
     margin-bottom: 80px;
    border-radius: 25px;
-   background-image: url("./images/Group\ 6.png")
+   background-image: url("./images/Group 6.png");
+   background-size: 100%;
   }
 
   .sub-image{
@@ -352,7 +353,7 @@ color: #474747;
   .demo a {
     position: absolute;
     bottom: -70px;
-    left: 48%;
+    left: 46%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -414,3 +415,165 @@ color: #474747;
   }
 }
   
+
+
+
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) { 
+
+  .parallax {
+  
+  
+    /* Set a specific height */
+    min-height: 350px; 
+  }
+
+  .view-app{
+    cursor: pointer;
+    width: 200px;
+    margin-right: 0;
+   
+  }
+  .sub-image-container{
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .bottom-curve{
+  
+  top: 3700px;
+  width: 30%;
+}
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) { 
+
+  .demo a {
+    
+    bottom: -70px;
+    left: 42%;
+  }
+
+  .parallax {
+  
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  }
+
+  .content-title, .content-description{
+    text-align: center;
+  }
+
+
+  .view-app{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    
+   
+  }
+  
+  .sub-image-container{
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .bottom-curve{
+  
+    top: 3300px;
+    width: 40%;
+  }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 480px) { 
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 300px;
+
+  }
+
+  .containerBox {
+ 
+    margin-bottom: 100px;
+    margin-top: 10px;
+    
+  }
+  .head-category{
+   
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+
+  .head-title{
+
+font-size: 28px;
+margin-bottom: 10px;
+
+  }
+
+  .head-description{
+ 
+    font-size: 16px;
+    font-weight: 500;
+  
+  }
+
+  .demo a {
+    
+    bottom: -70px;
+    left: 38%;
+  }
+
+  .parallax {
+  
+  
+    /* Set a specific height */
+    min-height: 200px; 
+  }
+
+  .content-title, .content-description{
+    text-align: center;
+  }
+
+
+  .view-app{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+   
+  }
+  
+  .sub-image-container{
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .author{
+    width: 70%;
+  
+  }
+  .parallax {
+
+    background-attachment:unset;
+   
+  }
+
+  
+  .bottom-curve{
+  
+    top: 2800px;
+    width: 70%;
+  }
+
+}
