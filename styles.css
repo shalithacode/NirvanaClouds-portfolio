@@ -34,7 +34,7 @@ section::after {
     display: block;
     width: 100%;
     margin-bottom: 100px;
-    margin-top: -20px;
+    margin-top: -70px;
     
   }
   
@@ -55,7 +55,7 @@ section::after {
   .img-responsive {
     display: block;
     max-width: 100%;
-    width: 550px;
+    width: 750px;
     margin: auto;
     padding: auto;
     
@@ -133,19 +133,19 @@ color: #474747;
     margin-left: auto;
     margin-right: auto;
    display: block;
+   color: #474747;
   }
 
   .content-title h2{
     font-weight: 600;
-    color: #474747;
+   
   }
 .content-description{
   margin-bottom: 50px;
-  color: #474747;
 }
   .bold-text{
-    font-weight: 500;
-    color: #474747;
+    font-weight: 600;
+    
   }
 
   .view-app{
@@ -353,8 +353,8 @@ color: #474747;
 
   .demo a {
     position: absolute;
-    bottom: -100px;
-    left: 46%;
+    bottom: -60px;
+    left: 50%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -463,6 +463,13 @@ color: #474747;
 
 @media all and (min-width: 481px) and (max-width: 768px) { 
 
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 700px;
+
+  }
+
   .demo a {
     
     bottom: -70px;
@@ -489,7 +496,12 @@ color: #474747;
     
    
   }
-  
+  .demo a {
+    
+    
+    left: 48%;
+  }
+
   .sub-image-container{
     border-radius: 25px;
     width: 100%;
@@ -509,7 +521,7 @@ color: #474747;
   .img-responsive {
     display: block;
     max-width: 100%;
-    width: 300px;
+    width: 500px;
 
   }
 
@@ -542,7 +554,7 @@ margin-bottom: 10px;
   .demo a {
     
     bottom: -70px;
-    left: 38%;
+    left: 48%;
   }
 
   .parallax {
@@ -555,7 +567,15 @@ margin-bottom: 10px;
   .content-title, .content-description{
     text-align: center;
   }
-
+  .content-title h2{
+    font-weight: 600;
+    font-size: 24px;
+   
+  }
+.content-description{
+  margin-bottom: 50px;
+  font-size: 16px;
+}
 
   .view-app{
     display: block;
@@ -582,7 +602,13 @@ margin-bottom: 10px;
    
   }
 
-  
+  .autor-text{
+    font-size: 16px;
+  }
+  .author-intro{
+    font-size: 16px;
+  }
+
   .bottom-curve{
   
     top: 2800px;
