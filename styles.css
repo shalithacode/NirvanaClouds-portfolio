@@ -59,7 +59,7 @@ section::after {
 .parallax {
   /* The image used */
   background-image: url("./images/Main Image.png");
-
+  background-size: auto;
   /* Set a specific height */
   min-height: 600px;
   width: 100%;
@@ -411,7 +411,9 @@ section::after {
     min-height: 550px;
     background-attachment: unset;
   }
-
+  .demo a {
+    bottom: -80px;
+  }
   .view-app {
     cursor: pointer;
     width: 200px;
@@ -437,7 +439,7 @@ section::after {
   }
 
   .demo a {
-    bottom: -70px;
+    bottom: -100px;
     left: 42%;
   }
 
@@ -501,7 +503,7 @@ section::after {
   }
 
   .demo a {
-    bottom: -70px;
+    bottom: -100px;
     left: 48%;
   }
 
@@ -509,7 +511,7 @@ section::after {
     /* Set a specific height */
     background-attachment: unset;
 
-    min-height: 210px;
+    min-height: 240px;
   }
 
   .content-title,
@@ -556,5 +558,22 @@ section::after {
   .bottom-curve {
     top: 2800px;
     width: 70%;
+  }
+}
+
+@media all and (min-width: 1441px) and (max-width: 5120px) {
+  .portfolio-page {
+    position: relative;
+    width: 1366px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .parallax {
+    background-size: 1366px;
+    background-attachment: unset;
+    min-height: 240px;
+    min-height: 700px;
   }
 }
