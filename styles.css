@@ -20,12 +20,12 @@ section::after {
   height: 80%;
 }
 
-.head-curve {
+.head-curve-shape {
   margin-left: 35%;
   width: 50%;
 }
 
-.containerBox {
+.intro-sphere {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -35,7 +35,7 @@ section::after {
   margin-top: -70px;
 }
 
-.text-box {
+.project-intro-text {
   position: absolute;
   height: 50%;
   text-align: center;
@@ -48,7 +48,7 @@ section::after {
   color: #474747;
 }
 
-.img-responsive {
+.sphere-image {
   display: block;
   max-width: 100%;
   width: 750px;
@@ -70,20 +70,20 @@ section::after {
   background-size: 100%;
   filter: brightness(110%);
 }
-.head-category {
+.project-intro-category {
   font-weight: 500;
   margin-bottom: 5px;
   font-size: 20px;
 }
 
-.head-title {
+.project-intro-title {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 15px;
   color: #474747;
 }
 
-.head-description {
+.project-intro-description {
   font-weight: 400;
   font-size: 20px;
   font-weight: 500;
@@ -91,7 +91,7 @@ section::after {
   color: #474747;
 }
 
-/* .main-image-container{
+/* .project-main-image-container{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -101,7 +101,7 @@ section::after {
    border-radius: 25px;
    background-image: url("./images/Group\ 6.png")
   } */
-.main-image-container {
+.project-main-image-container {
   width: 100%;
 
   margin-left: auto;
@@ -114,13 +114,13 @@ section::after {
   width: 100%;
   filter: brightness(110%);
 }
-.middle-curve {
+.middle-curve-shape {
   position: absolute;
   top: 100%;
   right: 0;
   z-index: -1;
 }
-.content {
+.project-content {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -128,17 +128,17 @@ section::after {
   color: #474747;
 }
 
-.content-title h2 {
+.project-content-title h2 {
   font-weight: 600;
 }
-.content-description {
+.project-content-description {
   margin-bottom: 50px;
 }
-.bold-text {
+.bold-text-area {
   font-weight: 600;
 }
 
-.view-app {
+.view-app-img {
   cursor: pointer;
   width: 200px;
   margin-right: 20px;
@@ -148,7 +148,7 @@ section::after {
   margin-bottom: 50px;
 }
 
-.sub-image-container {
+.project-sub-image-container {
   border-radius: 50px;
   width: 100%;
   margin-top: 80px;
@@ -158,30 +158,30 @@ section::after {
   background-size: 100%;
 }
 
-.sub-image {
+.project-sub-image {
   width: 100%;
   filter: brightness(110%);
 }
-.pink-color {
+.color-one-container {
   background-color: #ffcfc6;
 }
 
-.blue-color {
+.color-two-container {
   background-color: #7177d2;
 }
 
-.light-blue-color {
+.color-three-container {
   background-color: #cddff1;
 }
 
-.bottom-curve {
+.bottom-curve-shape {
   position: absolute;
   width: 30%;
   top: 4500px;
   left: 0;
   z-index: -1;
 }
-.author {
+.project-author {
   width: 55%;
   margin-left: auto;
   margin-right: auto;
@@ -194,11 +194,11 @@ section::after {
   margin-bottom: 30px;
 }
 
-.author-intro {
+.project-author-intro {
   font-weight: 700;
   color: #474747;
 }
-.line {
+.author-line {
   background: #f32c2c !important;
   width: 20%;
   margin: auto;
@@ -206,11 +206,11 @@ section::after {
   margin-bottom: 15px;
 }
 
-.author-name {
+.project-author-name {
   margin-top: -10px;
 }
 
-.move-project {
+.move-project-button {
   background-color: white;
   color: #474747;
   border: 2px solid #ff4749;
@@ -225,22 +225,7 @@ section::after {
   /* position: relative; */
 }
 
-/*
-  .move-project span{
-    width: 0%;
-    height: 100%;
-    background-color: white;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-  }
-
-  .move-project:hover span {
-    width: 100%;
-    transition: 0.5s;
-}*/
-.move-project:hover {
+.move-project-button:hover {
   background-color: #ff4749;
   color: white;
   /* transition: 0.5s; */
@@ -250,7 +235,7 @@ section::after {
   background-color: #ffe8ea;
   padding: 20px;
 }
-.move-project {
+.move-project-button {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -326,12 +311,12 @@ section::after {
   height: 80%;
 }
 
-#section05 {
+#portfolio-head {
   background: url(https://www.nxworld.net/example/css-scroll-down-button/bg07.jpg)
     center center / cover no-repeat;
 }
 
-.demo a {
+.portfolio-head-section a {
   position: absolute;
   bottom: -60px;
   left: 50%;
@@ -345,14 +330,14 @@ section::after {
   text-decoration: none;
   transition: opacity 0.3s;
 }
-.demo a:hover {
+.portfolio-head-section a:hover {
   opacity: 0.5;
 }
 
-#section05 a {
+#portfolio-head a {
   padding-top: 80px;
 }
-#section05 a span {
+#portfolio-head a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -368,16 +353,16 @@ section::after {
   opacity: 0;
   box-sizing: border-box;
 }
-#section05 a span:nth-of-type(1) {
+#portfolio-head a span:nth-of-type(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
-#section05 a span:nth-of-type(2) {
+#portfolio-head a span:nth-of-type(2) {
   top: 16px;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 }
-#section05 a span:nth-of-type(3) {
+#portfolio-head a span:nth-of-type(3) {
   top: 32px;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
@@ -411,34 +396,33 @@ section::after {
     min-height: 550px;
     background-attachment: unset;
   }
-  .demo a {
+  .portfolio-head-section a {
     bottom: -80px;
   }
-  .view-app {
-    cursor: pointer;
+  .view-app-img {
     width: 200px;
     margin-right: 0;
   }
-  .sub-image-container {
+  .project-sub-image-container {
     border-radius: 25px;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .bottom-curve {
+  .bottom-curve-shape {
     top: 3700px;
     width: 30%;
   }
 }
 
 @media all and (min-width: 481px) and (max-width: 768px) {
-  .img-responsive {
+  .sphere-image {
     display: block;
     max-width: 100%;
     width: 700px;
   }
 
-  .demo a {
+  .portfolio-head-section a {
     bottom: -100px;
     left: 42%;
   }
@@ -449,60 +433,60 @@ section::after {
     min-height: 360px;
   }
 
-  .content-title,
-  .content-description {
+  .project-content-title,
+  .project-content-description {
     text-align: center;
   }
 
-  .view-app {
+  .view-app-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
   }
-  .demo a {
+  .portfolio-head-section a {
     left: 48%;
   }
 
-  .sub-image-container {
+  .project-sub-image-container {
     border-radius: 25px;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .bottom-curve {
+  .bottom-curve-shape {
     top: 3300px;
     width: 40%;
   }
 }
 
 @media all and (min-width: 319px) and (max-width: 480px) {
-  .img-responsive {
+  .sphere-image {
     display: block;
     max-width: 100%;
     width: 500px;
   }
 
-  .containerBox {
+  .intro-sphere {
     margin-bottom: 100px;
     margin-top: 10px;
   }
-  .head-category {
+  .project-intro-category {
     margin-bottom: 0px;
     font-size: 16px;
   }
 
-  .head-title {
+  .project-intro-title {
     font-size: 28px;
     margin-bottom: 10px;
   }
 
-  .head-description {
+  .project-intro-description {
     font-size: 16px;
     font-weight: 500;
   }
 
-  .demo a {
+  .portfolio-head-section a {
     bottom: -100px;
     left: 48%;
   }
@@ -514,34 +498,34 @@ section::after {
     min-height: 240px;
   }
 
-  .content-title,
-  .content-description {
+  .project-content-title,
+  .project-content-description {
     text-align: center;
   }
-  .content-title h2 {
+  .project-content-title h2 {
     font-weight: 600;
     font-size: 24px;
   }
-  .content-description {
+  .project-content-description {
     margin-bottom: 50px;
     font-size: 16px;
   }
 
-  .view-app {
+  .view-app-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 150px;
   }
 
-  .sub-image-container {
+  .project-sub-image-container {
     border-radius: 15px;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
-  .author {
+  .project-author {
     width: 70%;
   }
   .parallax {
@@ -551,11 +535,11 @@ section::after {
   .autor-text {
     font-size: 16px;
   }
-  .author-intro {
+  .project-author-intro {
     font-size: 16px;
   }
 
-  .bottom-curve {
+  .bottom-curve-shape {
     top: 2800px;
     width: 70%;
   }
@@ -584,14 +568,14 @@ section::after {
     min-height: 1200px;
   }
 
-  .main-image-container {
+  .project-main-image-container {
     width: 100% !important;
   }
-  .middle-curve {
+  .middle-curve-shape {
     top: -250px;
     right: 0;
   }
-  .bottom-curve {
+  .bottom-curve-shape {
     top: 3000px;
     width: 50%;
   }
@@ -620,15 +604,15 @@ section::after {
     min-height: 2300px;
   }
 
-  .main-image-container {
+  .project-main-image-container {
     width: 100% !important;
   }
 
-  .middle-curve {
+  .middle-curve-shape {
     top: -250px;
     right: 0;
   }
-  .bottom-curve {
+  .bottom-curve-shape {
     top: 3000px;
     width: 50%;
   }
