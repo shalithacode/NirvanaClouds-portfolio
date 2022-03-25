@@ -572,7 +572,7 @@ section::after {
 
   .parallax {
     background-size: 1366px;
-    background-attachment: unset;
+    /* background-attachment: unset; */
     min-height: 240px;
     min-height: 700px;
   }
