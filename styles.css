@@ -167,7 +167,7 @@ section::after {
 .bottom-curve-shape {
   position: absolute;
   width: 30%;
-  top: 4500px;
+  top: 4300px;
   left: 0;
   z-index: -1;
 }
@@ -380,7 +380,7 @@ section::after {
   }
 }
 
-@media all and (min-width: 769px) and (max-width: 1024px) {
+@media all and (min-width: 769px) and (max-width: 1023px) {
   .parallax {
     /* Set a specific height */
     min-height: 550px;
