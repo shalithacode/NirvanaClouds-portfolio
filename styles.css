@@ -59,9 +59,8 @@ section::after {
 .parallax {
   /* The image used */
   background-image: url("./images/Main Image.png");
-  background-size: auto;
   /* Set a specific height */
-  min-height: 600px;
+  height: 550px;
   width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -167,7 +166,7 @@ section::after {
 .bottom-curve-shape {
   position: absolute;
   width: 30%;
-  top: 4300px;
+  top: 4100px;
   left: 0;
   z-index: -1;
 }
@@ -420,7 +419,7 @@ section::after {
   .parallax {
     /* Set a specific height */
     background-attachment: unset;
-    min-height: 360px;
+    max-height: 400px;
   }
 
   .project-content-title,
@@ -485,7 +484,7 @@ section::after {
     /* Set a specific height */
     background-attachment: unset;
 
-    min-height: 240px;
+    max-height: 240px;
   }
 
   .project-content-title,
@@ -535,7 +534,7 @@ section::after {
   }
 }
 
-@media all and (min-width: 1441px) and (max-width: 2560px) {
+@media all and (min-width: 1440px) and (max-width: 2560px) {
   .portfolio-page-sec1 {
     position: relative;
     width: 1441px;
@@ -555,7 +554,9 @@ section::after {
     background-size: 100%;
     /* background-attachment: unset; */
     background-repeat: no-repeat;
-    min-height: 1200px;
+    background-attachment: fixed;
+
+    height: 1100px;
   }
 
   .project-main-image-container {
@@ -591,7 +592,7 @@ section::after {
     background-size: 100%;
     /* background-attachment: unset; */
     background-repeat: no-repeat;
-    min-height: 2300px;
+    height: 2300px;
   }
 
   .project-main-image-container {
@@ -605,5 +606,22 @@ section::after {
   .bottom-curve-shape {
     top: 3000px;
     width: 50%;
+  }
+}
+@media screen and (width: 1600px) {
+  .parallax {
+    min-height: 800px;
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+@media screen and (width: 1024px) and (height: 1440px) {
+  .parallax {
+    background-attachment: scroll;
   }
 }
